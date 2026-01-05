@@ -6,16 +6,17 @@
     text-align: center;
 }
 
-/* TRANSFORM is a property with function values that change elements in various ways */
+/* TRANSFORM is a property that has
+functional values like f(x) to change an element */
 
 #rotate {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
 }
 
-/* scale(1) is original size
-   less than 1 is smaller
-   greater than 1 is bigger
-*/
+/* scale(1) is the original size
+   less than 1 makes it smaller
+   greater than 1 makes it bigger
+ */
 #scale {
     transform: scale(0.5);
 }
