@@ -6,19 +6,31 @@
     text-align: center;
 }
 
-/* TRANSFORM is a property that has
-functional values like f(x) to change an element */
+/* The TRANSFORM property uses functional values like f(x) to change an element */
 
 #rotate {
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
 }
 
-/* scale(1) is the original size
-   less than 1 makes it smaller
-   greater than 1 makes it bigger
- */
 #scale {
     transform: scale(0.5);
+}
+
+#skew {
+    transform: skew(-45deg);
+}
+
+/* translate(x) moves to the right (if x is positive)
+   translate(x,y) moves diagonally
+   translate(0,y) moves down (only along Y axis)
+*/
+#translate {
+    transform: translate(50px, -10px);
+}
+
+/* you can chain multiple transforms on the same element */
+#chain {
+    transform: rotate(95deg) skew(-10deg);
 }
 
 
