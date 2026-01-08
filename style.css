@@ -17,22 +17,17 @@
 }
 
 #skew {
-    transform: skew(-45deg);
+    transform: skew(-60deg);
 }
 
-/* translate(x) moves to the right (if x is positive)
+/* translate(x) moves element right (if x positive)
    translate(x,y) moves diagonally
-   translate(0,y) moves down (only along Y axis)
+   translate(0,y) moves element vertically only
 */
 #translate {
-    transform: translate(50px, -10px);
+    transform: translate(0px, 40px);
 }
 
-/* you can chain multiple transforms on the same element */
 #chain {
-    transform: rotate(95deg) skew(-10deg);
+    transform: translate(100px) scale(1.4) rotate(60deg);
 }
-
-
-
-
